@@ -2,9 +2,9 @@
 
 - hosts: ubuntu
   connection: ssh
-
-    steps:
-    - name: install git
-      actions: yum name=git status=present
+  
+  tasks:
+  - name: install git
+    actions: yum name=git status=present
 
 ...
