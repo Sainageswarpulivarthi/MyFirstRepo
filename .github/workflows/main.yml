@@ -1,5 +1,7 @@
+---
 - hostname: linux
   connection: ssh
   tasks:
   - name: installing git
     actions: yum name=git state=present
+...
