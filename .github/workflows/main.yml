@@ -1,4 +1,3 @@
----
 - hosts: linux
   connection: ssh
   tasks:
