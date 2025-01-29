@@ -1,4 +1,4 @@
-- hosts: linux
+- hosts: ubuntu
   connection: ssh
   tasks:
   - name: installing git
