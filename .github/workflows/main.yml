@@ -3,7 +3,7 @@
 - hosts: ubuntu
   connection: ssh
 
-    tasks:
+    steps:
     - name: install git
       actions: yum name=git status=present
 
