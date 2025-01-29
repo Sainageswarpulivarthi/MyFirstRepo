@@ -1,5 +1,5 @@
-- hosts: ubuntu
+- hostname: linux
   connection: ssh
   tasks:
   - name: installing git
-    actions: apt name=git state=present
+    actions: yum name=git state=present
