@@ -1,5 +1,5 @@
 ---
-- hostname: linux
+- hosts: linux
   connection: ssh
   tasks:
   - name: installing git
