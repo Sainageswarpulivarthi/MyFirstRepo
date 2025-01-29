@@ -1,0 +1,10 @@
+---
+
+- hosts: ubuntu
+  connection: ssh
+
+    tasks:
+    - name: install git
+      actions: yum name=git status=present
+
+...
