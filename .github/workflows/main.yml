@@ -5,6 +5,6 @@
   
   tasks:
   - name: install git
-    actions: yum name=git status=present
+    actions: apt name=git status=present
 
 ...
