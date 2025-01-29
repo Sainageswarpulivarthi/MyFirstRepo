@@ -1,6 +1,6 @@
 ---
 
-- hosts: ubuntu
+- hosts: linux
   connection: ssh
   
   tasks:
